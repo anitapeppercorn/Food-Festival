@@ -3,6 +3,8 @@
 ### Description
 
 Build a web application for an upcoming three-day food event. The current app loads very slowly when the client simulates a 4G internet connection using Chrome DevTools. The client needs a fast and performant application, especially on mobile, because the app is designed for event attendees who will be using it on their phones
+
+```text
   "devDependencies": 
     "file-loader": "^6.1.0",
     "webpack": "^4.44.2",
@@ -16,10 +18,11 @@ Build a web application for an upcoming three-day food event. The current app lo
     "image-webpack-loader": "^7.0.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
+'''
 
 ### App Deployment
 
-https://anitapeppercorn.github.io/food-festival/
+https://anitapeppercorn.github.io/Food-Festival/
 
 ### App Screenshot
 
