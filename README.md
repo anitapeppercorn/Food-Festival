@@ -18,7 +18,7 @@ Build a web application for an upcoming three-day food event. The current app lo
     "image-webpack-loader": "^7.0.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
-'''
+```
 
 ### App Deployment
 
