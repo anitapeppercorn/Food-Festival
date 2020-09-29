@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+## Food Festival
 
-You can use the [editor on GitHub](https://github.com/anitapeppercorn/Food-Festival/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Description
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Build a web application for an upcoming three-day food event. The current app loads very slowly when the client simulates a 4G internet connection using Chrome DevTools. The client needs a fast and performant application, especially on mobile, because the app is designed for event attendees who will be using it on their phones
+  "devDependencies": 
+    "file-loader": "^6.1.0",
+    "webpack": "^4.44.2",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-pwa-manifest": "^4.2.0"
 
-### Markdown
+"dependencies": 
+    "bootstrap": "^4.5.2",
+    "image-webpack-loader": "^7.0.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### App Deployment
 
-```markdown
-Syntax highlighted code block
+https://anitapeppercorn.github.io/food-festival/
 
-# Header 1
-## Header 2
-### Header 3
+### App Screenshot
 
-- Bulleted
-- List
+![](images/food_festival.gif)
 
-1. Numbered
-2. List
+### Tackle Performance Issues
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```text
+1. Google has a tool called Lighthouse which allows us to run an audit on our page and discover different metrics about how it performs, as well as what might be hindering its performance
+2. Lighthouse is a high-quality auditing tool for analyzing webpages. It provides audits for performance, accessibility, SEO (Search Engine Optimization), and Progressive Web Applications
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![](images/lighthouse.jpg)
 
-### Jekyll Themes
+### Concepts Covered
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anitapeppercorn/Food-Festival/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```text
+1. Audit application performance using Google's Lighthouse tool
+2. Minify Javascript and Image files
+3. Lazy Loading Javascript files
+4. Bundle the JavaScript files in an automated approach to code minification (Webpack)
+5. Code splitting bundles of JavaScript files to reduce the page-load time
+6. How to add reporting tools with plugins to analyze potential problem areas
+7. How to split the code to lazily load each code bundle associated with each respective HTML page
+8. How to compress images using an image loader
+```
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![](images/webpack-bundle-analyzer.jpg)
