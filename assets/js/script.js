@@ -5,12 +5,13 @@ const img2 = require("../../assets/img/grill.jpg");
 
 $(document).ready(function() {
   // First image is hard coded in index.html
+
   const carouselSlides = [
     {
       title: "We travel all over the US",
       subtitle: "Check out our schedule!",
       //img: "./assets/img/food-table.jpg",
-      img: img1,
+      img: img1.default,
       btnText: "View Schedule",
       btnUrl: "schedule.html"
     },
@@ -18,7 +19,7 @@ $(document).ready(function() {
       title: "Our food is seriously the bomb!",
       subtitle: "What are you waiting for?",
      // img: "./assets/img/grill.jpg",
-      img: img2,
+      img: img2.default,
       btnText: "Purchase Tickets",
       btnUrl: "tickets.html"
     },
